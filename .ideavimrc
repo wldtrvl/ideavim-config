@@ -1,0 +1,14 @@
+Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdtree'
+set sneak
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary
+Plug 'machakann/vim-highlightedyank
+Plug 'dbakker/vim-paragraph-motion'
+set multicursor
+
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
+map q <Plug>(multicursor-ms/)
+map z <Plug>(multicursor-mcv)
+map Z <Plug>(multicursor-mcr)
